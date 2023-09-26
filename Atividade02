@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Atividade02{
+    public static void main (){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Informe a temperatura:");
+        int x = scanner.nextInt();
+        int y = 30;
+        
+        if(x>y){
+            System.out.println( "O clima estar quente" );
+        }else{
+            System.out.println( "O clima estar frio" );
+        }
+        
+    }
+ }
+        
+       
